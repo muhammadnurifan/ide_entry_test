@@ -1,0 +1,20 @@
+STEP-STEP CLONE REPOSITORY
+1. Masuk ke halaman github menggunakan username dan password, kemudian pilih repository ide_entry_test.
+2. arahkan kursor ke button Code yang berwarna hijau kemudian klik, ada beberapa cara untuk clone repository pertama dengan menggunakan link url dan akan menggunakan gitbash nantinya, kedua mendownload file zip, ketiga langsung arahkan ke github desktop. saya akan menjelaskan menggunakan cara yang pertama.
+3. copy link HTTPS, contoh: https://github.com/muhammadnurifan/ide_entry_test.git.
+4. buat folder kosong untuk menampung file yang kita clone, kemudian buka git bash.
+5. kemudian tuliskan perintah $ git clone https://github.com/muhammadnurifan/ide_entry_test.git pada git bash
+6. kemudian tekan enter
+7. file akan terdownload dan masuk ke dalam folder yang kita tuju.
+
+STEP-STEP UPLOAD FILE KE REPOSITORY
+1. kita sudah memiliki repository dengan nama ide_entry_test, kita akan upload file project ke dalam repo tersebut.
+2. kemudian kita akan menuju folder project yang akan kita upload.
+3. klik kanan pada folder project kemudian pilih gitbash, maka akan keluar terminal gitbash.
+4. kita tinggal menuliskan syntax untuk mengupload project kita sebagai berikut.
+5. git init
+6. git add .
+7. git commit -m "first commit"
+8. git branch -M main
+9. git remote add origin https://github.com/muhammadnurifan/ide_entry_test.git
+10. git push -u origin main

@@ -1,0 +1,9 @@
+Jika menggunakan script pada gambar di bawah srcipt tidak akan berlajan.
+Seharusnya untuk insert banyak data tidak perlu menuliskan syntax INSERT INTO LAGI lagi, dan untuk id karena sudah menggunakan auto_increment tidak perlu menuliskan id secara manual cukup dengan string kosong ('') maka id sudah terisi secara otomatis.
+contoh = insert into school(id,school_code,school_name,inaugurated_date) values
+	 ('','SCH01','SCHOOL ABC','2020-01-25'),
+	 ('','SCH01','SCHOOL ABC','2020-01-25'),
+	 ('','SCH01','SCHOOL ABC','2020-01-25'),
+	 ('','SCH01','SCHOOL ABC','2020-01-25'),
+	 ('','SCH01','SCHOOL ABC','2020-01-25');
+	 

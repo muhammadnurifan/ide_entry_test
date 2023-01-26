@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="baru belajar html"
+</head>
+<body>
+    <div>
+        <p id="demo"></p>
+    </div>
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        var names = ["Andi", {"Name": "Gunawan", "Address": "Jl. kemerdekaan 01"}, "Budi"];
+        console.log(names[1]);
+        $("#demo").html(names[1]['Name']);
+    });
+</script>

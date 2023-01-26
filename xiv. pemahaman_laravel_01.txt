@@ -1,0 +1,7 @@
+1. Kegunaan .env (Environment variable):
+   berfungsi untuk mempermudah pemanggilan variable yang sifatnya di panggil berulang, seperti link api atau URL yang kita simpan di dalam file .env.
+   contoh = $url = env('URL_SERVICE_ACCOUNT');
+
+2. Kegunaan directory config:
+   berfungsi untuk mengkonfigurasi aplikasi.
+   contoh = didalam directory config terdapat file app.php, file tersebut berguna untuk melakukan konfigurasi seperti menentukan format tanggal dan waktu, konfigurasi debug, dan menambahkan package service providers yang kita install.

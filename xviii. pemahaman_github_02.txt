@@ -1,0 +1,8 @@
+1. pertama yang dilakukan adalah masuk directory yang telah di upload dengan dengan gitbash.
+2. buat branch baru dengan perintah git checkout -b new-branch
+3. lakukan perubahan pada salah satu file yang ada contoh index.html pada text editor.
+4. setelah melakukan perubahan sekarang waktunya untuk add dan commit, lakukan dengan perintah git add index.html
+5. untuk pesan commit lakukan dengan perintah git commit -m "melakukan perubahan pada index.html".
+6. setelah itu lakukan push dengan perintah git push origin new-branch.
+7. setelah itu kembali ke halaman github dan tekan button compare & pull request.
+8. kemudian masukkan judul pull request dan klik pull request. pull request sudah berhasil

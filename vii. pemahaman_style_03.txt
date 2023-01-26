@@ -1,0 +1,1 @@
+syntax CSS pada soal nomor 2 ERROR, karena css tidak bisa membaca dalam bentuk tersebut.
